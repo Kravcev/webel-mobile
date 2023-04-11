@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "PT Sans";
+    font-weight: 50;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-weight: 60;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+}
+
+.page-body {
+    max-width: 600px;
+    min-width: 270px;
+    margin: auto;
+    padding: 0;
+}
+
+.visual-hidden {
+    
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    padding:0 10%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.about-me,
+.my-photos
+{
+    color: tomato;
+    text-align: center;
+    font-size: 35px;
+    margin: 6% auto;
+}
+
+h3 {
+    color: salmon;
+}
+
+.page-main-about {
+    width: auto;
+    font-size: 35px;
+    color: rgb(238, 126, 126);
+    font-style: italic;
+    padding: 10px;
+
+}
+
+.front:hover {
+    color: Coral;
+    transition: 2s;
+}
+
+.front:not(:hover) {
+    color: white;
+    transition: 5s;
+}
+
+
+.logo-header {
+    font-size: 35px;
+    width: 155px;
+    background: -webkit-linear-gradient(left, DarkGray 45%, tomato 55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+
+}
+
+h2:nth-last-child(1) {
+    align-items:center;
+    font-size: 20px;
+    width: 80px;
+    background: -webkit-linear-gradient(left, DarkGray 45%, tomato 55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-details {
+    color: tomato;
+}
+
+.page-header {
+    border-bottom: 2px solid tomato;
+    border-top: 2px solid tomato;
+    margin: 10px 10px;
+}
+
+.page-header-nav {
+    display: block;
+}
+
+
+.header-nav-about {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+    padding: 0;
+    align-items: center;
+}
+
+.page-cards-img {
+    box-shadow: 5px 5px 5px #333333;
+    width: 100%;
+    height: auto;
+}
+
+.logo-header:hover {
+    border-top: 1px solid tomato;
+    border-bottom: 1px solid tomato;
+}
+
+.page-header-about:hover {
+    border-top: 1px solid tomato;
+    border-bottom: 1px solid tomato;
+}
+
+.page-up:hover {
+    width: 100%;
+    transition: 2s;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.page-up:not(:hover) {
+    width: 80%;
+    transition: 1s;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 23px;
+    line-height: 32px;
+    text-align: justify;
+}
+.page-card-photo {
+    width: auto;
+    text-align: center;
+}
+
+.sec {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact {
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    padding: 0 10px 30px;
+
+}
+
+.social {display: inline-block;}
+.social a {
+	display: block;
+	width: 48px;
+	height: 48px;
+	margin: 0;
+	text-align: center;
+	color: tomato;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 24px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+}
+.social a:hover {color: #fff;}
+.social svg {
+	margin-top: 7px;
+	width: 32px;
+	height: 32px;
+}
+
+.vk a:hover {background: #4a76a8;}
+.telegram a:hover {background: #249bd7;}
+.github a:hover {background: #191919;}
+.email a:hover {background: #5bc7ff;}
