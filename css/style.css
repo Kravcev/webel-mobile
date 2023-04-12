@@ -61,10 +61,9 @@ h3 {
 .page-main-about {
     width: auto;
     font-size: 35px;
-    color: rgb(238, 126, 126);
+    color: rgb(245, 108, 108);
     font-style: italic;
-    padding: 10px;
-
+    text-align: center;
 }
 
 .front:hover {
@@ -198,3 +197,25 @@ p {
 .telegram a:hover {background: #249bd7;}
 .github a:hover {background: #191919;}
 .email a:hover {background: #5bc7ff;}
+
+.button-nav{
+    display: flex;	
+    justify-content: center;
+    text-decoration: none !important;
+    background-color: #eaeaea !important;
+    color: #ff6a45 !important;
+    border: 1px solid salmon !important;
+    border-radius: 15px !important;
+    font-size: 22px !important;
+    padding: 15px 50px !important; 
+    transition: all 1.0s ease !important;
+    max-width: 580px;
+    min-width: 250px;
+    margin:3px auto;
+}
+.button-nav:hover{
+    text-decoration: none !important; 
+    background-color: #5680f3 !important;
+    color: #f1c4c4 !important;
+    border-color: #006089 !important;
+}
